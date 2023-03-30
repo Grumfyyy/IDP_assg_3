@@ -13,6 +13,14 @@
             syre.Print();
             järn.Print();
             guld.Print();
+
+            //Uppgift 4
+            Grundämne[] grundämnen = new Grundämne[] { syre, järn, guld,
+                                                        new Grundämne() { namn = "Väte", Z = 1, typ = "Ickemetall", smältpunkt = 13.99, kokpunkt = 20.271 },
+                                                        new Grundämne() { namn = "Brom", Z = 35, typ = "Ickemetall", smältpunkt = 265.8, kokpunkt = 332.0 },
+                                                        new Grundämne() { namn = "Kvicksilver", Z = 80, typ = "Metall", smältpunkt = 234.3210, kokpunkt = 629.88 }
+                                                        };
+
         }
 
     }
