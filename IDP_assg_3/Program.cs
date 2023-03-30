@@ -22,9 +22,18 @@
                                                         };
 
             //Uppgift 5
-            foreach (Grundämne grundämne in grundämnen)
+            /*foreach (Grundämne grundämne in grundämnen)
             {
                 grundämne.Print();
+            }*/
+
+            //Uppgift 6
+            foreach (Grundämne grundämne in grundämnen)
+            {
+                if(grundämne.typ == "Metall")
+                {
+                    grundämne.Print();
+                }
             }
         }
 
