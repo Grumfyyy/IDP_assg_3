@@ -28,9 +28,18 @@
             }*/
 
             //Uppgift 6
-            foreach (Grundämne grundämne in grundämnen)
+            /*foreach (Grundämne grundämne in grundämnen)
             {
                 if(grundämne.typ == "Metall")
+                {
+                    grundämne.Print();
+                }
+            }*/
+
+            //Uppgift 7
+            foreach (Grundämne grundämne in grundämnen)
+            {
+                if(grundämne.smältpunkt < 273.16 && grundämne.kokpunkt > 273.16)
                 {
                     grundämne.Print();
                 }
