@@ -10,9 +10,9 @@
             Grundämne guld = new Grundämne() { namn = "Guld", Z = 8, typ = "Metall", smältpunkt = 1337.33, kokpunkt = 3243 };
 
             //Uppgift 3
-            syre.Print();
-            järn.Print();
-            guld.Print();
+            //syre.Print();
+            //järn.Print();
+            //guld.Print();
 
             //Uppgift 4
             Grundämne[] grundämnen = new Grundämne[] { syre, järn, guld,
@@ -21,6 +21,11 @@
                                                         new Grundämne() { namn = "Kvicksilver", Z = 80, typ = "Metall", smältpunkt = 234.3210, kokpunkt = 629.88 }
                                                         };
 
+            //Uppgift 5
+            foreach (Grundämne grundämne in grundämnen)
+            {
+                grundämne.Print();
+            }
         }
 
     }
